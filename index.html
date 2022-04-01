@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campground</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="hero-section">
+        
+        <nav class="nav-section">
+
+            <p class="com-name">
+                CA<span class="m">M</span>PGROUND
+            </p>
+
+            <div onclick="openNav()" class='responsive-nav-icon'>
+                <p class='nav-bar-icon'>
+                    <i class='fas fa-bars'></i>
+                </p>
+            </div>
+
+            <div class="nav-bar">
+                <p class="nav-item" id="active">
+                    Home
+                </p>
+                <p class="nav-item">
+                    Campgrounds
+                </p>
+                <p class="nav-item">
+                    Login
+                </p>
+                <p class="nav-item">
+                    Sign Up
+                </p>
+            </div>
+
+        </nav>
+
+        <div class="body-section">
+            <p class="camping">
+                Let's Go Camping!
+            </p>
+            <div class="input-container">
+                <i class="fas fa-search"></i>
+                <input type="text" class="input" placeholder="Campground name" />
+                <div class="location-input-container">
+                    <button class="location-input"><i class="fas fa-map-marker-alt"></i> Location <i class="fas fa-angle-down"></i></button>
+                </div>
+                <input type="submit" value="Submit" class="submit-input" />
+            </div>
+        </div>
+    </div>
+
+
+    <div class="absolute-container">
+        <div class="abs-1 abs">
+            <i class="fas fa-fire-alt abs-icon"></i>
+            <p class="abs-text"><span class="f-t">3,500 + </span><br> Campgrounds</p>
+        </div>
+        <div class="abs-2 abs">
+            <i class="fas fa-globe abs-icon"></i>
+            <p class="abs-text"><span class="f-t">57 </span> <br> Countries/States</p>
+        </div>
+        <div class="abs-3 abs">
+            <i class="fas fa-hiking abs-icon"></i>
+            <p class="abs-text"><span class="f-t">Countless </span> <br> Happy Campers</p>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="container2-section1">
+            <p class="discover-text">
+                Discover Your Next Camping <span class="adv">Adventure</span>
+            </p>
+            <p class="lorem-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu dolor egestas nulla fermentum eleifend. Vestibulum leo urna, facilisis sed iaculis non, blandit quis est. Duis sed purus ut ligula venenatis eleifend. Ut placerat enim eget euismod pretium. Duis sollicitudin cursus est vel blandit.
+            </p>
+            <div class="start-btn-con">
+                <button class="start-btn">Start <i class="fas fa-angle-right"></i></button>
+            </div>
+            
+        </div>
+
+        <div class="container2-section2">
+            <div class="imgs-con1">
+                <img src="./images/camp4.jpg" alt="camp" class="camp1"/>
+                <img src="./images/camp2.jpg" alt="camp" class="camp2"/>
+            </div>
+            <div class="imgs-con2">
+                <img src="./images/camp3.jpg" alt="camp" class="camp3"/>
+                <img src="./images/camp1.jpg" alt="camp" class="camp4"/>
+            </div>
+        </div>
+    </div>
+
+    <div class="log-vh">
+        <div class="long-vh-1">
+            <div class="cards-con-1">
+                <div class="card-1 card">
+                    <i class="fas fa-mountain card-icon"></i>
+                    <p>Mountains</p>
+                </div>
+                <div class="card-2 card">
+                    <i class="fas fa-cloud-moon-rain card-icon"></i>
+                    <p>Hot Areas</p>
+                </div>
+                <div class="card-3 card">
+                    <i class="fas fa-snowman card-icon"></i>
+                    <p>Cold Areas</p>
+                </div>
+            </div>
+            <div class="more-icon-1">
+                <i class="fas fa-angle-right more-icon-1-icon"></i>
+            </div>
+            <div class="cards-con-2">
+                <div class="card-4 card">
+                    <i class="fas fa-sun card-icon"></i>
+                    <p>Desert</p>
+                </div>
+                <div class="card-5 card">
+                    <i class="fas fa-water card-icon"></i>
+                    <p>Lake</p>
+                </div>
+                <div class="card-6 card">
+                    <i class="fas fa-tree card-icon"></i>
+                    <p>Forest</p>
+                </div>
+            </div>
+        </div>
+        <div class="long-vh-2">
+            <div class="map-con">
+                <p class="map-text">Do you know a campground that isn't here?</p>
+                <button class="map-btn">Add Campground</button>
+            </div>
+        </div>
+        <div class="long-vh-3">
+            <div class="campers-story">
+                <span id="campers-story-left">Campers Stories</span>
+                <span id="campers-story-right">See More <i class="fas fa-angle-right"></i></span>
+            </div>
+            <div class="story-con">
+                <div class="story-card" id="story-card-1">
+                    <div class="story-card-img">
+                        <img src="./images/img1.jfif" alt="image" class="story-card-image" />
+                    </div>
+                    <div class="story-card-text">
+                        <p class="story-card-big-text">
+                            Over the clouds
+                        </p>
+                        <p class="story-card-second-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu dolor egestas nulla fermentum eleifend.
+                        </p>
+                        <p class="story-card-third-item">
+                            <p class="story-card-icon-con">
+                                <i class="fas fa-user-circle story-card-icon"></i>
+                                <span class="story-card-icon-text"><span class="f-t">Saviour Ise </span><br><span class="story-card-icon-text-2"> January 12th, 2022</span></span>
+                            </p>
+                            
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="story-card" id="story-card-2">
+                    <div class="story-card-img">
+                        <img src="./images/mountain.webp" alt="image" class="story-card-image" />
+                    </div>
+                    <div class="story-card-text">
+                        <p class="story-card-big-text">
+                            Camping tips
+                        </p>
+                        <p class="story-card-second-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu dolor egestas nulla fermentum eleifend.
+                        </p>
+                        <p class="story-card-third-item">
+                            <p class="story-card-icon-con">
+                                <i class="fas fa-user-circle story-card-icon"></i>
+                                <span class="story-card-icon-text"><span class="f-t">Jacob Platt </span><br><span class="story-card-icon-text-2"> October 19th, 2021</span></span>
+                            </p>
+                            
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="story-card" id="story-card-3">
+                    <div class="story-card-img">
+                        <img src="./images/mountain.jpg" alt="image" class="story-card-image" />
+                    </div>
+                    <div class="story-card-text">
+                        <p class="story-card-big-text">
+                            Camping tips
+                        </p>
+                        <p class="story-card-second-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu dolor egestas nulla fermentum eleifend.
+                        </p>
+                        <p class="story-card-third-item">
+                            <p class="story-card-icon-con">
+                                <i class="fas fa-user-circle story-card-icon"></i>
+                                <span class="story-card-icon-text"><span class="f-t">Isabella Jacobs </span><br><span class="story-card-icon-text-2"> July 2nd, 2021</span></span>
+                            </p>
+                            
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="long-vh-4">
+            <div class="top-footer">
+                <div class="top-footer-1">
+                    CA<span class="m">M</span>PGROUND
+                </div>
+                <div class="top-footer-2">
+                    <p class="footer-quick footer-quick-access"> Quick Access</p>
+                    <br>
+                    <p class="footer-quick"> Home</p>
+                    <br>
+                    <p class="footer-quick"> Campgrounds</p>
+                    <br>
+                    <p class="footer-quick"> Login</p>
+                    <br>
+                    <p class="footer-quick"> Sign Up</p>
+                </div>
+                <div class="top-footer-3">
+                    <p class="footer-sub"> Subscribe</p>
+                    <br>
+                    <p class="footer-sub-input"> 
+                        <input type="text" id="footer-sub-input-input" placeholder="Email Address" disabled>
+                        <i class="fas fa-paper-plane footer-sub-input-icon"></i>
+                    </p>
+                    <br>
+                    <p class="footer-sub-icons"> <i class="fa fa-facebook-circle footer-sub-icon"></i><i class="fa fa-instagram-circle footer-sub-icon"></i><i class="fa fa-twitter-circle footer-sub-icon"></i></p>
+                </div>
+                <div class="top-footer-4">
+                    Illustration
+                </div>
+            </div>
+            <hr>
+            <p class="reserved-text">Copyright @ 2022 Campground | All Rights Reserved</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
