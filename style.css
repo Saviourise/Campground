@@ -550,6 +550,15 @@ hr {
     display: none;
 }
 
+.footer-sub-icon {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.top-footer-4 {
+    text-align: center;
+    margin: 0px;
+}
 
 
 
@@ -580,6 +589,11 @@ hr {
     .camp4 {
         width: 30%;
         height: auto;
+    }
+
+    .top-footer-4 {
+        text-align: center;
+        margin: 20px 0px;
     }
 }
 
@@ -799,12 +813,12 @@ hr {
     }
 
     .top-footer {
-        height: 60vh;
+        height: 90vh;
         flex-direction: column;
     }
 
     .long-vh-4 {
-        height: 80vh;
+        height: 110vh;
         font-size: 80%;
     }
 
@@ -818,6 +832,11 @@ hr {
 
     .top-footer-3 {
         margin-top: 20px;
+    }
+
+    .top-footer-4 {
+        text-align: center;
+        margin: 20px 0px;
     }
     
     .reserved-text {
